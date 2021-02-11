@@ -1,0 +1,174 @@
+body{
+	background-image: url(2.jpg);
+}
+
+button{
+	width:100px;
+	height:40px;
+	color:white;
+	background-color:rgba(106,140,209);
+	border:None;
+	font-family:verdana;
+	font-size:18px;
+	border-radius:10px;
+}
+
+h4 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+}
+
+h4 span { 
+    background:rgba(220, 223, 223); 
+    padding:0 10px; 
+}
+
+input{
+	border:None;
+}
+
+
+#logo_name{
+	padding-bottom:1.875em;
+	height:2.7em;
+	box-shadow:0px 9px 9px -4px rgba(133,146,158,1);
+}
+
+#logo_name span{
+	float:left;
+	padding-left:10px;
+}
+
+#logo_name span img{
+	width:3.4375em;
+	height:3.4375em;
+	margin-top:10px;
+}
+
+#logo_name span p{
+	font-size:1.4375em;
+	font-family:verdana;
+}
+
+#in_div{
+	padding:0.625em;
+}
+
+#reg_div{
+	padding:0.505em;
+	align:center;
+	padding-left:26%;
+}
+
+#reg_div p{
+	font-family:verdana;
+	color:blue;
+	font-size:30px;
+}
+
+#normal_text, .name_div input{
+	width:150px;
+}
+
+#mailtext{
+	width:315px;
+}
+
+#age{
+	width:66px;
+}
+
+#form_div1{
+	margin:1.250em;
+}
+
+#form_div2{
+	padding:1.250em;
+	background-color:rgba(204,209,209);
+	border-radius: 40px;
+}
+
+#form_div2 #sub{
+	padding-left:44%
+}
+
+
+#current_per_addr{
+	padding-right:130px;
+}
+
+#current_per_addr input{
+	width:336px;
+}
+
+#curr_pad{
+	padding-right:80px;
+}
+
+#zip_size{
+	width:100px;
+}
+
+#textar{
+	 width:200px;
+	 border:None
+}
+
+#curr_passd{
+	padding-bottom:20px;
+}
+.name_div{
+	padding-top:20px;
+	margin-top:10px
+}
+
+.name_div span{
+	padding-right:10px;
+}
+
+.mail_age span{
+	padding-right:60px;
+}
+
+.mobile_dob span{
+	padding-right:180px;
+}
+
+.select_width{
+	width:150px;
+	border:None;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+.box {
+	background-color:rgba(220, 223, 223,0.8);
+	width:65%;
+	text-align:left;
+	border-radius:40px;
+	margin: auto auto;
+	margin-top:50px;
+}
+
+
+.requ:after {
+	content:"*";
+	color:red;
+	display:inline
+}
+
+.hobb{
+	padding-top:15px;
+}
+.hobb #hobb1{
+	float:left;
+	padding-right:120px
+}
+.hobb #hobb1 span{
+	float:left;
+}

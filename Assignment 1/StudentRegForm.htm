@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" href="mystyle.css">
+	<title>User Registration Form</title>
+</head>
+<body>
+	<div class="box">
+		<form>
+			<div id="form_div1">
+				<div id="reg_div">
+					<p><u>STUDENT REGISTRATION FORM</u></p>
+				</div>
+				<h4><span>Personal Details</span></h4>
+				<div class="name_div" id="in_div">
+					<span>
+						<label class="requ">First Name </label>
+						<input class="no-outline" type="text" >
+					</span>
+					<span>
+						<label class="requ">Middle Name</label>
+						<input class="no-outline" type="text" >
+					</span>
+					<span>
+						<label class="requ">Last Name </label>
+						<input class="no-outline" type="text" ><br>
+					</span>
+				</div>
+				<div class="mail_age" id="in_div">
+					<span>
+						<label class="requ">Email </label>
+						<input id="mailtext" class="no-outline" type="text" >
+					</span>
+					<span>
+						<label class="requ">Age </label>
+						<input id="age" class="no-outline" type="text" required>
+					</span>
+					<span>
+						<input type="Radio" Name="Gender" Value="Male">Male
+						<input type="Radio" Name="Gender" Value="Female">Female<br>
+					</span>
+				</div>
+				<div class="mobile_dob" id="in_div">
+					<span>
+						<label class="requ" >Mobile No </label>
+						<input id="normal_text" class="no-outline" type="text" required>
+					</span>
+					<span>
+						<label class="requ">DOB </label>
+						<input id="normal_text" class="no-outline" type="date" required>
+					</span><br>
+				</div>
+				<div id="in_div">
+					<span>
+						<label>Alternate Mobile: </label>
+						<input class="no-outline" type="text">
+					</span>
+				</div>
+				<div id="in_div">
+					<h4><span>Current Address</span></h4>
+					<span id="current_per_addr">
+						<label class="requ">Street </label>
+						<input class="no-outline" type="text" required>
+					</span>
+					<span>
+						<label class="requ">Country</label>
+						<select class="no-outline select_width" name="country" id="country" required>
+								<option value="India">India</option>
+								<option value="China">China</option>
+								<option value="Russia">Russia</option>
+								<option value="Pakistan">Pakistan</option>
+								<option value="Bangladesh">Bangladesh</option>
+								<option value="Nigeria">Nigeria</option>
+								<option value="Ethiopia">Ethiopia</option>
+								<option value="China">China</option>
+								<option value="Los Angels">Los Angels</option>
+								<option value="New York">New york</option>
+								<option value="Chicago">Chicago</option>
+								<option value="Sydney">Sydney</option>
+								<option value="Melbourne">Melbourne</option>
+								<option value="Brisbane">Brisbane</option>
+						</select><br>
+					</span>
+				</div>
+				<div id="in_div">
+					<span id="curr_pad">
+						<label class="requ">State </label>
+						<select class="no-outline select_width" name="country" id="country" required>
+							<option value="Odisha">Odisha</option>
+							<option value="Jammu">Jammu</option>
+							<option value="Rajastan">Rajastan</option>
+							<option value="Maharastra">Maharastra</option>
+							<option value="New Delhi">New Delhi</option>
+							<option value="Chatisgarh">Chatisgarh</option>
+							<option value="Punjab">Punjab</option>
+							<option value="Haryana">Haryana</option>
+							<option value="West Bengal">West Bengal</option>
+						</select>
+					</span>
+					<span id="curr_pad">
+						<label class="requ">City </label>
+						<select class="no-outline select_width" name="country" id="country" required>
+							<option value="Bhubaneswar">Bhubaneswar</option>
+							<option value="Rourkela">Rourkela</option>
+							<option value="Cuttack">Cuttack</option>
+							<option value="Balesore">Balesore</option>
+							<option value="Ranchi">Ranchi</option>
+							<option value="Jamshedpur">Jamshedpur</option>
+							<option value="Bangalore">Bangalore</option>
+							<option value="Mumbai">Mumbai</option>
+							<option value="Kolkata">Kolkata</option>
+						</select>
+					</span>
+					<span>
+						<label class="requ">Zip Code </label>
+						<input id="zip_size" class="no-outline" type="text" required>
+					</span>
+				</div>
+				<div id="in_div">
+					<h4><span>Permanent Address</span></h4>
+					<span id="current_per_addr">
+						<label>Street: </label>
+						<input class="no-outline" type="text">
+					</span>
+					<span>
+						<label>Country: </label>
+						<select class="no-outline select_width" name="country" id="country">
+								<option value="India">India</option>
+								<option value="China">China</option>
+								<option value="Russia">Russia</option>
+								<option value="Pakistan">Pakistan</option>
+								<option value="Bangladesh">Bangladesh</option>
+								<option value="Nigeria">Nigeria</option>
+								<option value="Ethiopia">Ethiopia</option>
+								<option value="China">China</option>
+								<option value="Los Angels">Los Angels</option>
+								<option value="New York">New york</option>
+								<option value="Chicago">Chicago</option>
+								<option value="Sydney">Sydney</option>
+								<option value="Melbourne">Melbourne</option>
+								<option value="Brisbane">Brisbane</option>
+						</select><br>
+					</span>
+				</div>
+				<div id="in_div">
+					<span id="curr_pad">
+						<label>State: </label>
+						<select class="no-outline select_width" name="country" id="country">
+							<option value="Odisha">Odisha</option>
+							<option value="Jammu">Jammu</option>
+							<option value="Rajastan">Rajastan</option>
+							<option value="Maharastra">Maharastra</option>
+							<option value="New Delhi">New Delhi</option>
+							<option value="Chatisgarh">Chatisgarh</option>
+							<option value="Punjab">Punjab</option>
+							<option value="Haryana">Haryana</option>
+							<option value="West Bengal">West Bengal</option>
+						</select>
+					</span>
+					<span id="curr_pad">
+						<label>City: </label>
+						<select class="no-outline select_width" name="country" id="country">
+							<option value="Bhubaneswar">Bhubaneswar</option>
+							<option value="Rourkela">Rourkela</option>
+							<option value="Cuttack">Cuttack</option>
+							<option value="Balesore">Balesore</option>
+							<option value="Ranchi">Ranchi</option>
+							<option value="Jamshedpur">Jamshedpur</option>
+							<option value="Bangalore">Bangalore</option>
+							<option value="Mumbai">Mumbai</option>
+							<option value="Kolkata">Kolkata</option>
+						</select>
+					</span>
+					<span>
+						<label>Zip Code<label>
+						<input id="zip_size" class="no-outline" type="text">
+					</span>
+				</div>
+				<div class="hobb" id="in_div">
+					<div id="hobb1">
+						<span>
+							<label>Hobbies </label>
+						</span>
+						<span>
+							<input id="textar" class="no-outline" type="text">
+						</span>
+					</div>
+					
+				</div>
+			</div>
+			<div id="form_div2">
+				<span id="sub">
+					<button class="no-outline" type="button">SUBMIT</button>
+				</span>
+
+			</div>
+		</form>
+	</div>
+</body>
+</html>

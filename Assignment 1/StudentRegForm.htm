@@ -6,7 +6,7 @@
 </head>
 <body>
 	<div class="box">
-		<form>
+		<form action="" name="myForm" onsubmit="return validateForm()" method="POST">
 			<div id="form_div1">
 				<div id="reg_div">
 					<p><u>STUDENT REGISTRATION FORM</u></p>
@@ -15,7 +15,7 @@
 				<div class="name_div" id="in_div">
 					<span>
 						<label class="requ">First Name </label>
-						<input class="no-outline" type="text" >
+						<input id="first_name" type="text">
 					</span>
 					<span>
 						<label class="requ">Middle Name</label>
@@ -29,11 +29,11 @@
 				<div class="mail_age" id="in_div">
 					<span>
 						<label class="requ">Email </label>
-						<input id="mailtext" class="no-outline" type="text" >
+						<input id="mailtext" class="no-outline" type="text"  >
 					</span>
 					<span>
 						<label class="requ">Age </label>
-						<input id="age" class="no-outline" type="text" required>
+						<input id="age" class="no-outline" type="text"  >
 					</span>
 					<span>
 						<input type="Radio" Name="Gender" Value="Male">Male
@@ -43,28 +43,28 @@
 				<div class="mobile_dob" id="in_div">
 					<span>
 						<label class="requ" >Mobile No </label>
-						<input id="normal_text" class="no-outline" type="text" required>
+						<input id="normal_text" class="no-outline" type="text"  >
 					</span>
 					<span>
 						<label class="requ">DOB </label>
-						<input id="normal_text" class="no-outline" type="date" required>
+						<input id="normal_text" class="no-outline" type="date">
 					</span><br>
 				</div>
 				<div id="in_div">
 					<span>
 						<label>Alternate Mobile: </label>
-						<input class="no-outline" type="text">
+						<input class="no-outline" type="text"  >
 					</span>
 				</div>
 				<div id="in_div">
 					<h4><span>Current Address</span></h4>
 					<span id="current_per_addr">
 						<label class="requ">Street </label>
-						<input class="no-outline" type="text" required>
+						<input class="no-outline" type="text" >
 					</span>
 					<span>
 						<label class="requ">Country</label>
-						<select class="no-outline select_width" name="country" id="country" required>
+						<select class="no-outline select_width" name="country" id="country" >
 								<option value="India">India</option>
 								<option value="China">China</option>
 								<option value="Russia">Russia</option>
@@ -85,7 +85,7 @@
 				<div id="in_div">
 					<span id="curr_pad">
 						<label class="requ">State </label>
-						<select class="no-outline select_width" name="country" id="country" required>
+						<select class="no-outline select_width" name="country" id="country" >
 							<option value="Odisha">Odisha</option>
 							<option value="Jammu">Jammu</option>
 							<option value="Rajastan">Rajastan</option>
@@ -99,7 +99,7 @@
 					</span>
 					<span id="curr_pad">
 						<label class="requ">City </label>
-						<select class="no-outline select_width" name="country" id="country" required>
+						<select class="no-outline select_width" name="country" id="country" >
 							<option value="Bhubaneswar">Bhubaneswar</option>
 							<option value="Rourkela">Rourkela</option>
 							<option value="Cuttack">Cuttack</option>
@@ -113,7 +113,7 @@
 					</span>
 					<span>
 						<label class="requ">Zip Code </label>
-						<input id="zip_size" class="no-outline" type="text" required>
+						<input id="zip_size" class="no-outline" type="text"  >
 					</span>
 				</div>
 				<div id="in_div">
@@ -173,7 +173,7 @@
 					</span>
 					<span>
 						<label>Zip Code<label>
-						<input id="zip_size" class="no-outline" type="text">
+						<input id="zip_size" class="no-outline" type="text" >
 					</span>
 				</div>
 				<div class="hobb" id="in_div">
@@ -185,16 +185,30 @@
 							<input id="textar" class="no-outline" type="text">
 						</span>
 					</div>
-					
+					<label>Password :
+						<input name="Password" id="password" type="password" onkeyup='check();' />
+					  </label>
+					  <label>Confirm password:
+						<input type="Password" name="confirm_password" id="confirm_password"  onkeyup='check();' /> 
+						<span id='message'></span>
+					  </label>
 				</div>
+				<span>
+					<p>Please input a number between 1 and 10:</p>
+					<input id="numb">
+					<input type="submit" onclick="CheckFunction()">
+					<p id="demo"></p>
+				</span>
 			</div>
 			<div id="form_div2">
 				<span id="sub">
-					<button class="no-outline" type="button">SUBMIT</button>
+					<button class="no-outline" type="submit" >SUBMIT</button>
 				</span>
 
 			</div>
+
 		</form>
 	</div>
 </body>
+<script src="new.js"></script>
 </html>

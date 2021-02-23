@@ -113,7 +113,7 @@ input{
 }
 
 #textar{
-	 width:200px;
+	 width:120px;
 	 border:None
 }
 
@@ -167,7 +167,7 @@ input{
 }
 .hobb #hobb1{
 	float:left;
-	padding-right:120px
+	padding-right:50px
 }
 .hobb #hobb1 span{
 	float:left;

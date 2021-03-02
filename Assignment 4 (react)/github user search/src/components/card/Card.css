@@ -1,0 +1,13 @@
+.card {
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4f4f8;
+    min-width: 300px;
+    align-items: center;
+}
+
+a > img:hover {
+    border: 2px solid #d4e2f6;
+}

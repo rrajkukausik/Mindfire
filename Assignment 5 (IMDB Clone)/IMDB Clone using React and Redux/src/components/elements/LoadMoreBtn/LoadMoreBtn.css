@@ -1,0 +1,14 @@
+.loadmorebtn {
+  background: #1c1c1c;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.loadmorebtn p {
+  font-family: 'Abel', sans-serif;
+  font-size:42px;
+  padding: 20px;
+}

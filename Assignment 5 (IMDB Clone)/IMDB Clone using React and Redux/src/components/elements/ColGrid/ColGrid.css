@@ -1,0 +1,21 @@
+grid h1 {
+  font-family: 'Abel', sans-serif;
+  font-size:42px;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 40px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid h1 {
+    font-size:22px;
+  }
+}
